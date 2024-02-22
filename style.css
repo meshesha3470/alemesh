@@ -1,0 +1,295 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: radial-gradient(circle, #FFA07A, #20B2AA);
+  height: 100vh;
+}
+
+ header {
+  
+  color: #fff; 
+  margin: 0 px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  background-color:#3498db;
+  width: 100%;
+
+}
+
+.logo {
+  align-content: center;
+  margin-left:  50px;
+  padding:0 5px;
+  width: 100%;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+.alemesh{
+  align-content: center;
+  margin-right:  50px;
+  padding:0 5px;
+  width: 100%;
+
+}
+.logopage {
+  text-align: center;
+  font: 1em sans-serif;
+  margin: 0;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-size: 26px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+/* Add the following CSS for responsiveness */
+header img {
+  max-width: 100%;
+}
+
+nav {
+ 
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+ justify-content: center;
+  font-size: 30px;
+  width: 100%;
+  float: left;
+  color: #fff; 
+  padding: 20px;
+  text-decoration: none;
+  margin: 0%;
+}
+
+nav a {
+ color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 10px;
+}
+.logopage-container,
+.email-container,
+.phone-container {
+  flex-basis: 100%;
+  margin-top: 10px;
+  text-align: center;
+}
+
+nav a:hover {
+  background-color: #555;
+  height: 100px;
+}
+
+
+
+.navbar-toggler {
+  display: none; /* Hide the navbar toggler by default */
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-toggler {
+    display: block; /* Show the navbar toggler for small screens */
+  }
+
+  nav {
+    flex-direction: column; /* Switch to a column layout for small screens */
+  }
+
+  nav a {
+    flex-basis: 100%; /* Full width for navigation links in the column layout */
+    margin-bottom: 10px; /* Add spacing between links */
+  }
+}
+
+.email,
+.phone {
+  margin-right: 10px;
+}
+
+.cart {
+  max-width: 40px;
+  padding: 0px;
+}
+
+#cart {
+  text-align: left;
+  color: aliceblue;
+}
+
+section {
+  padding: 20px;
+  text-align: center;
+}
+
+
+.car-image,
+.coffee-image,
+.about-image {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+
+.form-row {
+  display: flex;
+  flex-direction: row; /* Default to a row layout */
+  justify-content: space-between; /* Add space between label and input */
+  align-items: center; /* Align items vertically in the center */
+  margin-bottom: 10px;
+}
+
+.form-row label {
+  width: 45%; /* Adjust the width as needed */
+  text-align: right;
+}
+
+.form-row input {
+  width: 45%; /* Adjust the width as needed */
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 600px) {
+  .form-row {
+    flex-direction: column; /* Switch to a column layout for small screens */
+    justify-content: last baseline; /* Center items vertically in column layout */
+    align-items: flex-start; /* Align items to the start (left) in column layout */
+  }
+
+  .form-row label,
+  .form-row input {
+    width: 100%; /* Full width for labels and inputs in the column layout */
+    text-align: left;
+    margin-bottom: 5px;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 10px;
+  }
+
+  header {
+    padding: 10px;
+  }
+
+  .logo {
+    margin-left: 10px;
+  }
+
+  nav {
+    padding: 10px;
+  }
+
+  nav a {
+    margin: 0 10px;
+  }
+
+  .email,
+  .phone {
+    margin-right: 10px;
+  }
+  .service-section {
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  .google-autocomplete {
+    max-width: none; /* Allow Google Autocomplete to control its width */
+  }
+  
+  .service-container {
+    max-width: 600px; /* Adjust max-width as needed */
+    margin: 0 auto;
+  }
+  
+
+  .service-container {
+    max-width: 600px; /* Adjust max-width as needed */
+    margin: 0 auto;
+  }
+ 
+
+.customerForm-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.customerForm-container form {
+  text-align: left; /* Align form elements to the left */
+}
+
+
+
+
+  form {
+    max-width: 300px;
+  }
+  /* Your existing CSS styles remain unchanged */
+
+/* Add this for responsive design */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  header, nav {
+    padding: 10px;
+  }
+
+  .logo {
+    max-width: 200%;
+  }
+
+  .logopage, .email, .fa-phone {
+    font-size: 30px;
+  }
+
+  /* Add more responsive styles as needed */
+}
+/* General styles for header */
+
+
+/* Logo styles */
+.logo-container {
+  display: inline-block;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Logopage styles */
+.logopage-container {
+  display: none; /* Hide logopage on mobile */
+}
+
+/* Email styles */
+.email-container {
+  display: none; /* Hide email on mobile */
+}
+
+/* Phone styles */
+.phone-container {
+  display: inline-block;
+}
+
+
+
+}
+.footer{
+  background-color: #333; /* Adjust the background color as needed */
+  color: #fff; /* Adjust the text color as needed */
+  text-align: center;
+  padding: 10px;
+}
